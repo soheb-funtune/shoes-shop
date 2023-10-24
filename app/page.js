@@ -3,7 +3,12 @@ import HeroBanner from "@/components/HeroBanner";
 import Wrapper from "@/components/Wrapper";
 import ProductCard from "@/components/ProductCard";
 
-export default function Home() {
+import { getShoes } from "@/components/axios-req";
+import CardCompo from "@/components/card-compo/card-compo";
+
+export default async function Home() {
+  const res = await getShoes();
+  // console.log("api called from front-end:", res?.data);
   return (
     <main className="min-h-[80vh] w-full max-w-[993px] mx-auto">
       <HeroBanner />
@@ -21,6 +26,8 @@ export default function Home() {
         </div>
         {/* heading and paragaph end */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14">
+          {res?.data &&
+            res?.data.map((item) => <CardCompo key={item?.id} item={item} />)}
           <ProductCard />
           <ProductCard />
           <ProductCard />

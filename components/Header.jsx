@@ -59,7 +59,7 @@ const Header = () => {
 
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center hover:bg-black-[0.05] cursor-pointer relative">
             <BsCart className="text-[17px] md:text-[20px] text-center" />
-            <span className=" h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 right-[3px]  text-white text-center text-[12px] ">
+            <span className="leading-[1rem] md:leading-[1.5rem] h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 right-[3px]  text-white text-center text-[12px] ">
               9
             </span>
           </div>
@@ -69,7 +69,7 @@ const Header = () => {
 
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center hover:bg-black-[0.05] cursor-pointer relative">
             <IoMdHeartEmpty className="text-[17px] md:text-[20px] text-center" />
-            <div className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 right-[3px]   text-white text-center text-[12px] ">
+            <div className="leading-[1rem] md:leading-[1.5rem] h-[14px]  md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 right-[3px]   text-white text-center text-[12px] ">
               9
             </div>
           </div>
@@ -78,12 +78,12 @@ const Header = () => {
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center hover:bg-black-[0.05] cursor-pointer relative">
             {mobileMenu ? (
               <VscChromeClose
-                className="text-[17px] md:text-[20px] text-center"
+                className=" text-[17px] md:text-[20px] text-center"
                 onClick={() => setMobileMenu(false)}
               />
             ) : (
               <BiMenuAltRight
-                className="text-[17px] md:text-[20px] text-center"
+                className="  text-[17px] md:text-[20px] text-center"
                 onClick={() => setMobileMenu(true)}
               />
             )}
