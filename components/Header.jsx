@@ -75,7 +75,7 @@ const Header = () => {
           </div>
           {/* icon end */}
           {/* mobile menu start */}
-          <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center hover:bg-black-[0.05] cursor-pointer relative">
+          <div className="md:hidden w-8 md:w-12 h-8 md:h-12 rounded-full flex items-center justify-center hover:bg-black-[0.05] cursor-pointer relative">
             {mobileMenu ? (
               <VscChromeClose
                 className=" text-[17px] md:text-[20px] text-center"

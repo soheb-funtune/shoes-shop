@@ -22,15 +22,16 @@ const ProductDetails = () => {
         <div className="flex flex-col lg:flex-row md:px-10  lg:gap-[100px] max-w-[993px] mx-auto">
           {/* left column start */}
           <div className="w-full md:w-auto max-w-[500px] lg-max-w-full flex-[1.5] mx-auto lg:mx-0 ">
-            <ProductDetailsCarousal image={shoesData?.image} />
+            <ProductDetailsCarousal
+              rating={shoesData?.rating?.rate}
+              image={shoesData?.image}
+            />
           </div>
           {/* left column end */}
           {/* right column start */}
           <div className="flex-[1] py-3">
             {/* product title */}
-            <div className="text-[34px] font-semibold mb-2">
-              {shoesData?.name}
-            </div>
+            <p className="text-[20px] font-semibold mb-2">{shoesData?.name}</p>
             {/* PRODUCT SUB-TITLE */}
             {!shoesData?.name && (
               <div className="text-lg font-semibold mb-5">
