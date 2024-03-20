@@ -1,3 +1,10 @@
+![shoes-home](https://github.com/soheb-funtune/shoes-shop/assets/97585425/a518fe4f-4b79-4b15-af36-fd66cac71b1b)
+
+![home-footer](https://github.com/soheb-funtune/shoes-shop/assets/97585425/e123291b-ebcb-47d1-8385-623c83c73a43)
+
+![product-details](https://github.com/soheb-funtune/shoes-shop/assets/97585425/b3af9f45-be22-482a-8d8d-50dac5166ac8)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +39,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
